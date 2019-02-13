@@ -1,0 +1,21 @@
+name: deck_gl_geojson
+description: WebGL visualization of GeoJSON data (requires access to the full Anaconda repository and the internet).
+
+commands:
+  default:
+    unix: bash run.sh
+    supports_http_options: true
+
+variables:
+  MAPBOX_ACCESS_TOKEN: pk.eyJ1Ijoia292ZXJob2x0IiwiYSI6ImNqMWNoemRyNDAwMWUycW1odXJkZndjNGkifQ.tfPnZpI90DtlwLpRck3mpA
+  MapboxAccessToken: pk.eyJ1Ijoia292ZXJob2x0IiwiYSI6ImNqMWNoemRyNDAwMWUycW1odXJkZndjNGkifQ.tfPnZpI90DtlwLpRck3mpA
+
+channels: []
+packages: []
+
+env_specs:
+  anaconda44_py35:
+    channels: []
+    packages:
+      - nodejs
+      - ipykernel=4.6

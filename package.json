@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "start": "webpack-dev-server --progress --hot --port 8086 --host 0.0.0.0"
+  },
+  "dependencies": {
+    "d3-request": "^1.0.5",
+    "deck.gl": "^4.1.1",
+    "luma.gl": "^4.0.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-map-gl": "^3.0.0"
+  },
+  "devDependencies": {
+    "brfs-babel": "^1.0.0",
+    "buble": "^0.15.1",
+    "buble-loader": "^0.4.0",
+    "webpack": "^2.4.0",
+    "webpack-dev-server": "^2.4.0"
+  }
+}
